@@ -1,20 +1,11 @@
-import Navbar from "../components/layout/navbar";
+import Navbar from "@/components/layout/navbar"
+import Hero from "@/components/home/hero"
 
 export default function Home() {
   return (
-    <main>
-      <navbar />
-
-      <h1>🏥 HealthHub AI</h1>
-
-      <p>
-        Smart Healthcare Platform powered by AI.
-      </p>
-
-      <button>
-        Book Appointment
-      </button>
-
-    </main>
-  );
+    <>
+      <Navbar />
+      <Hero />
+    </>
+  )
 }
